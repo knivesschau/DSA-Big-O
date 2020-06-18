@@ -1,0 +1,35 @@
+// Golden Retreiver Problem
+- Constant Time O(1) - only ONE person responded and they did so IMMEDIATELY (aka runs regardless of input, "holy grail")
+
+// Golden Retreiver Redux (Ask Individuals)
+- Linear Time O(n) - looping through entire group of individuals (array) until a match is found (depends on input!)
+
+// Even or Odd 
+- Constant Time O(1) - only one event is happening/being checked for in function REGARDLESS OF INPUT! 
+
+// Are you here? 
+- Polynomial Time O(n ^ k) - function has nested loops, indicative of polynomial time. 
+
+// Doubler
+- Linear Time O(n) - function grows based on the length of the array. 
+
+// Naive Search 
+- Linear Time O(n) - function is searching through the entire length of array for match.
+
+// Creating Pairs
+- Polynomial Time O(n ^ k) - function has nested loops. 
+
+// Compute the Sequence
+- The function is running the Fibonacci sequence. Because it the results depend on the input (the if/else statements), 
+the function's run time is Linear O(n) since the function runs specifically on how large the input will be. 
+
+// An Efficient Search
+- Each time the function is looped through, the time to complete the function decreases. However, larger inputs take longer to compute, 
+but slowly scale up and do not significantly affect the run time. Since the function is aiming for search efficiency despite
+the potential for larger inputs, it is using Logarithmic Time O(log (n)). 
+
+// Random Element
+- Constant Time O(1) - only one event is being checked for (any random element) REGARDLESS OF INPUT!
+
+// What Am I?
+- Linear Time 0(n) - function's time completion depends on the value of n (aka the length/size!). 
