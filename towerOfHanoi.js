@@ -1,11 +1,14 @@
 function towerOfHanoi(diskNum, begin, movement, lastPosition) {
+    // exit/base case, return if no more disks are in said tower. 
     if (diskNum === 0) {
-        return 
+        return;
     }
 
+    // general/recursive case, continue moving disks according to rules and keep track of positions across the towers. 
     towerOfHanoi(diskNum - 1, begin, movement, lastPosition)
     towerOfHanoi(diskNum - 1, lastPosition, begin, movement)
-    console.log(`Moving ${diskNum} from ${begin} to ${lastPosition}`)
+
+    console.log(`Moving ${diskNum} from ${begin} to ${lastPosition}`);
 }
 
 towerOfHanoi(3, 'A', 'B', 'C') // 7 recursions
